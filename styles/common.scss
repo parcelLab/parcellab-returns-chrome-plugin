@@ -1,0 +1,208 @@
+@import "bootstrap/scss/bootstrap";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.order-header {
+    font-size: 11px;
+}
+
+.register-return-link {
+    font-size: 12px;
+}
+
+.order-card {
+    font-size: 10px;
+}
+
+:root{
+
+   --inter:'Inter', sans-serif;
+   --black-10:#64748b;
+   --black-100:#0f172a;
+}
+
+.icon-svg-blue {
+    background-color: #002172;
+}
+
+.icon-svg-std {
+    //background-color: #9ca3af;
+    background-color: #e5e7eb;
+}
+
+.icon-svg{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-svg svg {
+    width: 25px;
+}
+
+
+.icon-svg path {
+    //fill: white;
+    width: 20px;
+}
+
+.svg-link {
+    cursor: pointer;
+}
+
+
+
+
+.main-item{
+    font-size: 14px;
+    margin: auto;
+}
+
+.from-other-tracking {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+
+.main-box li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 548px) {   
+    .line {
+        max-height: 100%!important;  
+    }
+    p.mb-0 {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+    .main-box {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .from-other-tracking {
+        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.line {
+    background: #e5e7eb;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 16px;
+    top: 0;
+    top: 33px;
+}
+
+.before-0 .icon-svg:before{
+   
+    position: unset;
+    background: unset;
+
+}
+
+
+
+li.item-1 {
+    padding-bottom: 32px;
+}
+
+.icon-svg-2{
+    background-color: #3b82f6;
+}
+
+.icon-svg-3{
+    background-color: #22c55e;
+}
+
+
+
+.rounded-box:before {
+    position: absolute;
+    content: "";
+    background: white;
+    width: 100%;
+    height: 100%;
+    height: 43px;
+    top: -5px;
+    width: 40px;
+    left: -2px;
+}
+
+.text-max-w {
+  
+    padding-right: 10px;
+}
+
+.date {
+    white-space: nowrap;
+}
+
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+  font-size: 11px;
+}
+
+
+//css hacks for returns plugin
+.pl-courier-name {
+     font-size: 14px !important;
+}
+
+.pl-header {
+    font-size: 18px;
+}
+
+.pl-input-label {
+    font-size: 1rem;
+}
+
+.pl-input {
+    font-size: 11px !important;
+}
+
+.pl-card {
+    font-size: 11px !important;
+}
+
+.pl-desc-term {
+    flex: 0.5 !important;
+}
+
+h1.pl-header {
+    display: none;
+}
+
+.pl-header-text {
+    display: none;
+}
+
+#pwrd-by-pl {
+    display: none;
+}
+
+// .pl-order-information {
+//     display: none;
+// }
+
+// .pl-card-section--center {
+//     display: none;
+// }
+
+// .pl-text-center.pl-header {
+//     display: none;
+// }

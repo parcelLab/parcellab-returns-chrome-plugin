@@ -14,3 +14,7 @@ Thumbs.db
 # General
 log/
 *.log
+dist
+coverage
+node_modules
+*.zip

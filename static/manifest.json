@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "parcelLab CS Returns",
+  "version": "0.1.0",
+  "version_name": "0.1.0 beta",
+  "description": "parcelLab Chrome plugin for Customer Service teams to register returns on behalf of their customers in parcelLab",
+  "author": "jay@parcellab.com",
+  "icons": {
+    "16": "/img/parcelLab_Glyph_RGB_Color.png",
+    "48": "/img/parcelLab_Glyph_RGB_Color.png",
+    "128": "/img/parcelLab_Glyph_RGB_Color.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "/img/parcelLab_Glyph_RGB_Color.png",
+      "24": "/img/parcelLab_Glyph_RGB_Color.png",
+      "32": "/img/parcelLab_Glyph_RGB_Color.png"
+    },
+    "default_title": "parcelLab CS Returns",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["sidePanel"],
+  "homepage_url": "https://parcellab.com/",
+  "minimum_chrome_version": "114"
+}
