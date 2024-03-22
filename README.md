@@ -17,9 +17,9 @@ $ npm run build
 
 ## Usage
 
-- From the options page enter your parcelLab account id, api token and select your language
+- From the options page configure the account options ofr your return portal
 - Open the extension from the extension bar or in the sidepanel
-- Search for information by order number or tracking number
+- Begin a return
 
 ## Contributing
 
